@@ -6,7 +6,7 @@ namespace EntityFramework.Guardian.Entities
     /// <summary>
     /// Access Types
     /// </summary>
-    public enum AccessTypes
+    public enum ActionTypes
     {
         /// <summary>
         /// The get

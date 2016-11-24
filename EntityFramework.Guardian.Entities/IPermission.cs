@@ -9,12 +9,12 @@ namespace EntityFramework.Guardian.Entities
     public interface IPermission
     {
         /// <summary>
-        /// Gets the name of the entity type.
+        /// Gets the name of the Resource.
         /// </summary>
         /// <value>
-        /// The name of the entity type.
+        /// The name of the Resource.
         /// </value>
-        string EntityTypeName { get; }
+        string Resource { get; }
 
         /// <summary>
         /// Gets the type of the access.
@@ -22,6 +22,6 @@ namespace EntityFramework.Guardian.Entities
         /// <value>
         /// The type of the access.
         /// </value>
-        AccessTypes AccessType { get; }
+        ActionTypes ActionType { get; }
     }
 }

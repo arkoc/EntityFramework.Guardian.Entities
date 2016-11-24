@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessTypes.cs" />
+    <Compile Include="ActionTypes.cs" />
     <Compile Include="IColumnRestriction.cs" />
     <Compile Include="IPermission.cs" />
     <Compile Include="IPermission`1.cs" />
