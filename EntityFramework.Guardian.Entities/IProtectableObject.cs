@@ -19,11 +19,11 @@ namespace EntityFramework.Guardian.Entities
         ProtectionResults ProtectionResult { get; set; }
 
         /// <summary>
-        /// Gets or sets the protected properties.
+        /// Gets or sets the restricted properties.
         /// </summary>
         /// <value>
         /// The protected properties.
         /// </value>
-        List<string> ProtectedProperties { get; set; }
+        List<string> RestrictedProperties { get; set; }
     }
 }
